@@ -5,7 +5,7 @@
 @homepageURL https://github.com/EaranMaleasi/VB-Paradise-dark-theme
 @supportURL  https://github.com/EaranMaleasi/VB-Paradise-dark-theme/issues
 @updateURL   https://raw.githubusercontent.com/EaranMaleasi/VB-Paradise-dark-theme/master/VBP_DarkTheme.user.css
-@version     0.2.4
+@version     0.2.5
 @license     CC-BY-NC-SA-4.0
 ==/UserStyle== */
 
@@ -259,9 +259,13 @@
         position: absolute;
         right: 10px;
         top: 5px;
-    
     }
     
+
+    .collapsibleButton::before {
+        text-shadow: var(--noBorderWidth);
+    }
+
     
     .container {
         background-color: var(--backgroundColorElevated1);
