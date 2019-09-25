@@ -5,7 +5,7 @@
 @homepageURL https://github.com/EaranMaleasi/VB-Paradise-dark-theme
 @supportURL  https://github.com/EaranMaleasi/VB-Paradise-dark-theme/issues
 @updateURL   https://raw.githubusercontent.com/EaranMaleasi/VB-Paradise-dark-theme/master/VBP_DarkTheme.user.css
-@version     0.2.2
+@version     0.2.3
 @license     CC-BY-NC-SA-4.0
 ==/UserStyle== */
 
@@ -352,6 +352,10 @@
     .dropdownMenu {
         background-color: var(--backgroundColorElevated3);
         border: var(--noBorderWidth);
+    }
+    .dropdownMenu li > a, .dropdownMenu li > span {
+        color: var(--textColor);
+        text-shadow: none;
     }
     
     fieldset > legend {
