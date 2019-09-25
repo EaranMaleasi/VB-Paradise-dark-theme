@@ -5,7 +5,7 @@
 @homepageURL https://github.com/EaranMaleasi/VB-Paradise-dark-theme
 @supportURL  https://github.com/EaranMaleasi/VB-Paradise-dark-theme/issues
 @updateURL   https://raw.githubusercontent.com/EaranMaleasi/VB-Paradise-dark-theme/master/VBP_DarkTheme.user.css
-@version     0.2.1
+@version     0.2.2
 @license     CC-BY-NC-SA-4.0
 ==/UserStyle== */
 
@@ -335,7 +335,7 @@
     border-top-right-radius: var(--noBorderWidth);
     }
     
-    
+
     dl:not(.plain) > dt {
         color: var(--linkColor);
     }
