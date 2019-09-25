@@ -316,6 +316,25 @@
         background-color:#000
     }*/
     
+    .dialogContainer {
+        border-radius: var(--noBorderWidth);
+    }
+    .dialogContent {
+        background-color: var(--backgroundColorElevated1);
+    }
+    .dialogContent .formSubmit {
+        background-color: var(--backgroundColorElevated2);
+        border: var(--noBorderWidth);
+        border-bottom-left-radius: var(--noBorderWidth);
+        border-bottom-right-radius: var(--noBorderWidth);
+        padding: 15px 0;
+    }
+    .dialogTitlebar {
+    border: var(--noBorderWidth);
+    border-top-left-radius: var(--noBorderWidth);
+    border-top-right-radius: var(--noBorderWidth);
+    }
+    
     
     dl:not(.plain) > dt {
         color: var(--linkColor);
