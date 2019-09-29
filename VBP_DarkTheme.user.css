@@ -5,7 +5,7 @@
 @homepageURL https://github.com/EaranMaleasi/VB-Paradise-dark-theme
 @supportURL  https://github.com/EaranMaleasi/VB-Paradise-dark-theme/issues
 @updateURL   https://raw.githubusercontent.com/EaranMaleasi/VB-Paradise-dark-theme/master/VBP_DarkTheme.user.css
-@version     0.2.5
+@version     0.2.6
 @license     CC-BY-NC-SA-4.0
 ==/UserStyle== */
 
@@ -73,6 +73,12 @@
     #attachments, #settings, #smilies, #poll{
          background-color:var(--backgroundColorElevated3);
     }
+    #lbImage {
+        border: 10px solid var(--backgroundColorElevated5);
+    }
+    #lbBottom {
+        border: 10px solid var(--backgroundColorElevated1);
+    }
     #main {
         border-right: var(--noBorderWidth);
     }
@@ -106,7 +112,10 @@
     a:hover{
         color:var(--linkColorHover)
     }
-    
+
+    .attachmentThumbnail {
+        background-color: var(--backgroundColorElevated3);
+    }
     
     .badge {
         border-radius:var(--noBorderWidth);
@@ -372,7 +381,7 @@
     
     
     .icon{
-        color : var(--textColor);;
+        color : var(--iconColor);;
         text-shadow:none;
     }
     
