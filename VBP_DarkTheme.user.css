@@ -5,7 +5,7 @@
 @homepageURL https://github.com/EaranMaleasi/VB-Paradise-dark-theme
 @supportURL  https://github.com/EaranMaleasi/VB-Paradise-dark-theme/issues
 @updateURL   https://raw.githubusercontent.com/EaranMaleasi/VB-Paradise-dark-theme/master/VBP_DarkTheme.user.css
-@version     0.2.6
+@version     0.2.7
 @license     CC-BY-NC-SA-4.0
 ==/UserStyle== */
 
@@ -75,9 +75,13 @@
     }
     #lbImage {
         border: 10px solid var(--backgroundColorElevated5);
+        color: var(--textColor);
     }
     #lbBottom {
         border: 10px solid var(--backgroundColorElevated1);
+    }
+    #lbCenter, #lbBottomContainer {
+        background-color: var(--backgroundColorElevated1);
     }
     #main {
         border-right: var(--noBorderWidth);
